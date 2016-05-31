@@ -67,8 +67,8 @@ syn keyword ponyBuiltinClass    Array ArrayKeys ArrayValues ArrayPairs
 syn keyword ponyBuiltinClass    Env Pointer String StringValues
 hi def link ponyBuiltinClass    Structure
 
-syn keyword ponyBuiltinType     Number Signed Unsigned Float Bool
-syn keyword ponyBuiltinType     I8 I16 I32 I64 I128 U8 U16 U32 U64 U128 F32 F64
+syn keyword ponyBuiltinType     Number Signed Unsigned Float Bool None
+syn keyword ponyBuiltinType     I8 I16 I32 I64 I128 U8 U16 U32 U64 U128 F32 F64 USize
 syn keyword ponyBuiltinType     EventID Align IntFormat NumberPrefix FloatFormat
 hi def link ponyBuiltinType     Type
 
