@@ -67,7 +67,7 @@ syn keyword ponyBuiltinClass    Array ArrayKeys ArrayValues ArrayPairs
 syn keyword ponyBuiltinClass    Env Pointer String StringValues
 hi def link ponyBuiltinClass    Structure
 
-syn keyword ponyBuiltinType     Number Signed Unsigned Float
+syn keyword ponyBuiltinType     Number Signed Unsigned Float Bool
 syn keyword ponyBuiltinType     I8 I16 I32 I64 I128 U8 U16 U32 U64 U128 F32 F64
 syn keyword ponyBuiltinType     EventID Align IntFormat NumberPrefix FloatFormat
 hi def link ponyBuiltinType     Type
@@ -134,7 +134,7 @@ hi def link ponyKeyword         Keyword
 hi def link ponyTry             Exception
 
 syn keyword ponyTypedef         type
-syn keyword ponyStructure       interface trait primitive class actor
+syn keyword ponyStructure       interface trait primitive class actor object lambda
 hi def link ponyTypedef         Typedef
 hi def link ponyStructure       Structure
 
